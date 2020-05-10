@@ -8,6 +8,7 @@ from app.simulation import bp
 def index():
     return jsonify(
         {
+            "status": "Rocket offline",
             "location_url": url_for(".location")
         }
     )
